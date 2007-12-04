@@ -16,7 +16,7 @@ BuildRequires:	libmstun-devel >= 0.5.0-0.20061210.0
 BuildRequires:	libmutil-devel >= 0.3.1-0.20061210.0
 BuildRequires:	libminisip-devel >= 0.3.1-0.20061210.0
 BuildRequires:	libglade2.0-devel libglademm-devel openssl-devel >= 0.9.8
-BuildRequires:	XFree86-devel
+BuildRequires:	X11-devel
 Requires(post): desktop-file-utils
 Requires(postun): desktop-file-utils
 Requires:	libminisip-plugins >= 0.3.1-0.20061210.0
