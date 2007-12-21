@@ -20,6 +20,7 @@ BuildRequires:	X11-devel
 Requires(post): desktop-file-utils
 Requires(postun): desktop-file-utils
 Requires:	libminisip-plugins >= 0.3.1-0.20061210.0
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Minisip is a SIP User Agent ("Internet telephone") developed at KTH, Stockholm.
