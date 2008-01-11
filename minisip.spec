@@ -43,17 +43,6 @@ rm -rf %{buildroot}
 %makeinstall
 
 #menu
-mkdir -p %{buildroot}%{_menudir}
-cat << EOF > %{buildroot}%{_menudir}/%{name}
-?package(%{name}): \
-command="%{name}_gtkgui" \
-icon="%{name}.png" \
-needs="x11" \
-title="MiniSIP" \
-longtitle="SIP Videophone" \
-section="More Applications/Communications" \
-xdg="true"
-EOF
 
 #icons
 install -d %{buildroot}%{_liconsdir}
@@ -95,7 +84,6 @@ rm -rf %{buildroot}
 %doc AUTHORS README NEWS TODO
 %{_bindir}/*
 %{_datadir}/%{name}
-%{_menudir}/%{name}
 %{_liconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
