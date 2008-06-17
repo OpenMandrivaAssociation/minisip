@@ -8,7 +8,7 @@ License:	GPL
 Group:		Communications
 URL:		http://www.minisip.org/
 Source:		%{name}-%{version}-%cvs.tar.bz2
-BuildRequires:	pkgconfig ImageMagick
+BuildRequires:	pkgconfig imagemagick
 BuildRequires:	libmikey-devel >= 0.4.1-0.20061210.0
 BuildRequires:	libmnetutil-devel >= 0.3.1-0.20061210.0
 BuildRequires:	libmsip-devel >= 0.3.1-0.20061210.0
