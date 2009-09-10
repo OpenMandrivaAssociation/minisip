@@ -3,7 +3,7 @@
 Summary: 	Lightweight SIP internet videophone
 Name: 	 	minisip
 Version: 	0.7.1
-Release: 	%mkrel 0.%cvs.2
+Release: 	%mkrel 0.%cvs.3
 License:	GPL
 Group:		Communications
 URL:		http://www.minisip.org/
