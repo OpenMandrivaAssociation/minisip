@@ -6,7 +6,7 @@ Version: 	0.7.1
 Release: 	%mkrel 0.%cvs.3
 License:	GPL
 Group:		Communications
-URL:		http://www.minisip.org/
+URL:		https://www.minisip.org/
 Source:		%{name}-%{version}-%cvs.tar.bz2
 BuildRequires:	pkgconfig imagemagick
 BuildRequires:	libmikey-devel >= 0.4.1-0.20061210.0
